@@ -6,7 +6,7 @@ module.exports = {
       '^.+\\.jsx?$': 'babel-jest',
       '^.+\\.ts?$': 'ts-jest'
     },
-    roots: ['<rootDir>/../src'],
+    roots: ['<rootDir>/../server/src'],
     moduleFileExtensions: ['ts', 'js', 'json', 'node'],
     preset: 'ts-jest'
   };

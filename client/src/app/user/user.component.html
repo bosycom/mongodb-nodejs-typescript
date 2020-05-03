@@ -1,0 +1,7 @@
+<hr/>
+<div class="container">
+  <h2>All Users</h2>
+  <ul *ngFor="let user of users">
+    <li><a [routerLink]="['user-detail', user._id]">{{user.name}}</a></li>
+  </ul>
+</div>
